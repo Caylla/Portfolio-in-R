@@ -150,6 +150,29 @@ ggplot(data = dados_boxplot, aes(x = grupo, y = valores, fill = grupo)) +
        x = "Grupo",
        y = "Valores")
 
+############################
+# 9. Atualizar sua versão R
+############################
+
+#Verificar qual sua versão  R 
+
+sessionInfo()
+
+#OU
+
+version
+
+#Instale o pacote "installr"
+
+install.packages("installr")
+
+#Irá aparecer opções para selecionar um servidor  para o download. Escolha um e clique em OK.Se não aparecer a atualização é automática.
+#Execute a função updateR
+
+installr::updateR()
+
+#Aparecerá uma caixa de texto para confirmar a atualização, Clique em "sim" e depois "ok"
+
 
 
 # Este projeto abrange os conceitos básicos de R, incluindo atribuição de variáveis, operações matemáticas, estruturas de dados (vetores, matrizes, dataframes) e visualização de dados usando ggplot2. Você pode executar este script linha por linha em seu ambiente R para experimentar e entender cada conceito.
